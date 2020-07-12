@@ -1,0 +1,46 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/objsets'
+INFO  time: initialize in 0.34s
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetData.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetReader.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetData.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetReader.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/objsets'
+INFO  time: initialize in 0.31s
+INFO  skipping build import with status 'Requested'
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetSetInterface.scala
+Mar 09, 2020 1:32:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: /Users/imamdigmi/Code/scala/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals

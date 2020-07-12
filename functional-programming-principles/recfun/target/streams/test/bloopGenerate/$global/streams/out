@@ -1,0 +1,4 @@
+[debug] [recfun-test] Classpath dependencies List()
+[debug] [recfun-test] Dependencies from configurations List(recfun)
+[debug] Bloop wrote the configuration of project 'recfun-test' to '/Users/imamdigmi/Code/scala/recfun/.bloop/recfun-test.json'
+[success] Generated .bloop/recfun-test.json

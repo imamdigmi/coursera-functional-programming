@@ -1,0 +1,14 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/funsets'
+INFO  time: initialize in 0.36s
+WARN  no build target for: /Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/imamdigmi/Code/scala/funsets/src/main/scala/funsets/FunSets.scala
+INFO  shutting down Metals

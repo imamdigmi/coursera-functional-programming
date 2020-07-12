@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala:116:84: value weight is not a member of patmat.CodeTree[0m
+[0m[[0m[31merror[0m] [0m[0m      case head1 :: head2 :: tail => (makeCodeTree(head1, head2) :: tail).sortBy(_.weight)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala:116:81: diverging implicit expansion for type Ordering[B][0m
+[0m[[0m[31merror[0m] [0m[0mstarting with method Tuple9 in object Ordering[0m
+[0m[[0m[31merror[0m] [0m[0m      case head1 :: head2 :: tail => (makeCodeTree(head1, head2) :: tail).sortBy(_.weight)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

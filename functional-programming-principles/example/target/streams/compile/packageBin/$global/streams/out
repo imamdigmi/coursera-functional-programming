@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/imamdigmi/Code/scala/example/target/scala-2.13/progfun1-example_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Lists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example/Lists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Lists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example/Lists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/ExampleApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example/ExampleApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/ExampleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example/ExampleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/ExampleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example/ExampleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/imamdigmi/Code/scala/example/target/scala-2.13/classes/example[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

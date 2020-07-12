@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/imamdigmi/Code/scala/forcomp/src/main/scala/forcomp/Anagrams.scala:39:19: method groupBy in class StringOps is deprecated (since 2.13.0): Use `s.toSeq.groupBy(...).view.mapValues(_.unwrap)` instead of `s.groupBy(...)`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    w.toLowerCase.groupBy(c => c) map (tup => (tup._1, tup._2.size))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

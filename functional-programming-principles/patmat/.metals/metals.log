@@ -1,0 +1,565 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/patmat'
+INFO  time: initialize in 0.34s
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/metals5327339197813234947/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading settings for project patmat-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/imamdigmi/Code/scala/patmat/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/imamdigmi/Code/scala/patmat/project/"), "patmat-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Compiling 2 Scala sources to /Users/imamdigmi/Code/scala/patmat/project/target/scala-2.12/sbt-1.0/classes ...
+INFO  [info] Done compiling.
+INFO  [info] Loading settings for project patmat from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-patmat (in build file:/Users/imamdigmi/Code/scala/patmat/)
+INFO  [success] Generated .bloop/patmat.json
+INFO  [success] Generated .bloop/patmat-test.json
+INFO  [success] Total time: 1 s, completed Mar 10, 2020 1:51:52 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 19s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher1800369352515756697/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+Waiting for the bsp connection to come up...
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+Waiting for the bsp connection to come up...
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because it doesn't belong to a build target.
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-69-693de22a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/imamdigmi/Code/scala/patmat/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/imamdigmi/Code/scala/patmat/.bloop/patmat.json'
+[0m[32m[D][0m Loading project from '/Users/imamdigmi/Code/scala/patmat/.bloop/patmat-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.0.
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/imamdigmi/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar
+[0m[32m[D][0m Missing analysis file for project 'patmat'
+[0m[32m[D][0m Missing analysis file for project 'patmat-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher1800369352515756697/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher1800369352515756697/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/imamdigmi/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 28s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 1.65s
+INFO  compiling patmat (3 scala sources)
+INFO  time: compiled patmat in 50s
+INFO  compiling patmat (3 scala sources)
+Mar 10, 2020 1:53:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/publishDiagnostics",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala"
+    },
+    "buildTarget": {
+      "uri": "file:/Users/imamdigmi/Code/scala/patmat/?id\u003dpatmat"
+    },
+    "diagnostics": [
+      {
+        "range": {
+          "start": {
+            "line": 20,
+            "character": 0
+          },
+          "end": {
+            "line": 194,
+            "character": 1
+          }
+        },
+        "severity": 1,
+        "code": "trait Huffman extends HuffmanInterface {",
+        "source": "bloop",
+        "message": "Companions \u0027trait Huffman\u0027 and \u0027object Huffman\u0027 must be defined in same file:\n  Found in /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala and /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala"
+      }
+    ],
+    "reset": true
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionAbsolutePathMetals.toInput(MtagsEnrichments.scala:168)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:138)
+	at scala.meta.internal.metals.Diagnostics.onBuildPublishDiagnostics(Diagnostics.scala:118)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.onBuildPublishDiagnostics(ForwardingMetalsBuildClient.scala:85)
+	... 16 more
+
+Mar 10, 2020 1:53:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/publishDiagnostics",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala"
+    },
+    "buildTarget": {
+      "uri": "file:/Users/imamdigmi/Code/scala/patmat/?id\u003dpatmat"
+    },
+    "diagnostics": [
+      {
+        "range": {
+          "start": {
+            "line": 196,
+            "character": 0
+          },
+          "end": {
+            "line": 196,
+            "character": 30
+          }
+        },
+        "severity": 1,
+        "code": "object Huffman extends Huffman",
+        "source": "bloop",
+        "message": "Huffman is already defined as object Huffman"
+      }
+    ],
+    "reset": false
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionAbsolutePathMetals.toInput(MtagsEnrichments.scala:168)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:138)
+	at scala.meta.internal.metals.Diagnostics.onBuildPublishDiagnostics(Diagnostics.scala:118)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.onBuildPublishDiagnostics(ForwardingMetalsBuildClient.scala:85)
+	... 16 more
+
+INFO  time: compiled patmat in 15ms
+Mar 10, 2020 1:53:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+Mar 10, 2020 1:53:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didSave",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionAbsolutePathMetals.toInput(MtagsEnrichments.scala:168)
+	at scala.meta.internal.metals.MetalsLanguageServer.didSave(MetalsLanguageServer.scala:791)
+	... 16 more
+
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+INFO  compiling patmat (3 scala sources)
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didSave",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionAbsolutePathMetals.toInput(MtagsEnrichments.scala:168)
+	at scala.meta.internal.metals.MetalsLanguageServer.didSave(MetalsLanguageServer.scala:791)
+	... 16 more
+
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didSave",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionAbsolutePathMetals.toInput(MtagsEnrichments.scala:168)
+	at scala.meta.internal.metals.MetalsLanguageServer.didSave(MetalsLanguageServer.scala:791)
+	... 16 more
+
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman2.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 85
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 84
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman-3.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman-3.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman-3.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman-3.scala' because the build target patmat is being compiled. Wait until compilation is finished and try again.
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+Mar 10, 2020 1:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+INFO  time: compiled patmat in 0.3s
+INFO  compiling patmat (3 scala sources)
+INFO  time: compiled patmat in 87ms
+INFO  compiling patmat (3 scala sources)
+INFO  time: compiled patmat in 0.12s
+INFO  compiling patmat (3 scala sources)
+INFO  time: compiled patmat in 74ms
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/ex.scala
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/imamdigmi/Code/scala/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-ujpKYErEQEqzsxiCRlX31g==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/imamdigmi/Code/scala/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-ujpKYErEQEqzsxiCRlX31g==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling patmat (2 scala sources)
+INFO  time: compiled patmat in 3.29s
+INFO  compiling patmat-test (1 scala source)
+INFO  time: compiled patmat-test in 1.11s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.33s
+Mar 10, 2020 1:54:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 246
+INFO  compiling patmat (1 scala source)
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+INFO  time: compiled patmat in 1.46s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.37s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.21s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.3s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.26s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.23s
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/.metals/readonly/scala/Function1.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/.metals/readonly/scala/Function1.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.21s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.27s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.18s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.19s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.12s
+INFO  compiling patmat (1 scala source)
+INFO  Deduplicating compilation of patmat from bsp client 'Metals 0.8.1' (since 4m 8.134s)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.16s
+INFO  compiling patmat (1 scala source)
+INFO  Deduplicating compilation of patmat from bsp client 'Metals 0.8.1' (since 4m 9.262s)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.14s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.18s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.14s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.11s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.1s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.17s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.12s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.16s
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+INFO  compiling patmat (1 scala source)
+INFO  Deduplicating compilation of patmat from bsp client 'Metals 0.8.1' (since 4m 42.964s)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.16s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.18s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.16s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.12s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.18s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.15s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.1s
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.17s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.11s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 88ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 84ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.15s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 98ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.15s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.13s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.14s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 93ms
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/ex.scala
+INFO  skipping build import with status 'Installed'
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/ex.scala
+INFO  skipping build import with status 'Installed'
+something's wrong: no file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///Users/imamdigmi/Code/scala/patmat/src/main/scala/patmat/Huffman.scala, 3594, 3594, 3608)
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/patmat/ex.scala' because it doesn't belong to a build target.
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.22s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.19s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.47s
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/ex.scala
+INFO  skipping build import with status 'Installed'
+WARN  no build target for: /Users/imamdigmi/Code/scala/patmat/ex.scala
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

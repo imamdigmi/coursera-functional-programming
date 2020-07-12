@@ -1,0 +1,21 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'
+INFO  time: initialize in 0.39s
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/test/scala/example/ListsSuite.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/test/scala/example/ListsSuite.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/functional-programming-design/example/src/main/scala/example/Lists.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'
+INFO  time: initialize in 0.32s
+WARN  no build tool detected in workspace '/Users/imamdigmi/Code/scala/functional-programming-design'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals

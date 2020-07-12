@@ -1,0 +1,4 @@
+[debug] [example] Classpath dependencies List()
+[debug] [example] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'example' to '/Users/imamdigmi/Code/scala/example/.bloop/example.json'
+[success] Generated .bloop/example.json

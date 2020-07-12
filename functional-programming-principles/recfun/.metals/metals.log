@@ -1,0 +1,98 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/imamdigmi/Code/scala/recfun'
+INFO  time: initialize in 0.34s
+WARN  no build target for: /Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFunInterface.scala
+WARN  no build target for: /Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/imamdigmi/Code/scala/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/metals4810231542103753073/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  skipping build import with status 'Started'
+Feb 21, 2020 2:50:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+INFO  [info] Loading settings for project recfun-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/imamdigmi/Code/scala/recfun/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/imamdigmi/Code/scala/recfun/project/"), "recfun-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project recfun from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/imamdigmi/Code/scala/recfun/)
+INFO  [info] Defining Global / bloopExportJarClassifiers
+INFO  [info] The new value will be used by ThisBuild / bloopExportJarClassifiers
+INFO  [info] Reapplying settings...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/imamdigmi/Code/scala/recfun/)
+INFO  [success] Generated .bloop/recfun.json
+INFO  [success] Generated .bloop/recfun-test.json
+INFO  [success] Total time: 1 s, completed Feb 21, 2020 2:50:19 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 16s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher7515050955997033208/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/imamdigmi/Code/scala/recfun/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/imamdigmi/Code/scala/recfun/.bloop/recfun-test.json'
+[0m[32m[D][0m Loading project from '/Users/imamdigmi/Code/scala/recfun/.bloop/recfun.json'
+[0m[32m[D][0m Missing analysis file for project 'recfun-test'
+[0m[32m[D][0m Missing analysis file for project 'recfun'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher7515050955997033208/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher7515050955997033208/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/imamdigmi/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.18s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 1.54s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/metals7987957449469964653/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  [info] Loading settings for project recfun-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/imamdigmi/Code/scala/recfun/project
+INFO  [info] Loading settings for project recfun from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/imamdigmi/Code/scala/recfun/)
+INFO  [info] Defining Global / bloopExportJarClassifiers
+INFO  [info] The new value will be used by ThisBuild / bloopExportJarClassifiers
+INFO  [info] Reapplying settings...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/imamdigmi/Code/scala/recfun/)
+INFO  [success] Generated .bloop/recfun-test.json
+INFO  [success] Generated .bloop/recfun.json
+INFO  [success] Total time: 1 s, completed Feb 21, 2020 2:50:52 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 8.91s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher916382672801351379/bsp.socket'...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/imamdigmi/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 0.15s
+INFO  compiling recfun (2 scala sources)
+INFO  disconnected: build server
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/imamdigmi/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 0.13s
+INFO  Deduplicating compilation of recfun from bsp client 'Metals 0.8.0' (since 5.702s)
+INFO  compiling recfun (2 scala sources)
+INFO  time: compiled recfun in 7.91s
+INFO  compiling recfun (2 scala sources)
+INFO  time: compiled recfun in 5.72s
+INFO  started: Metals version 0.8.0 in workspace '/Users/imamdigmi/Code/scala/recfun'
+INFO  time: initialize in 0.31s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher337636885249760784/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher337636885249760784/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/s3/qkwxrnj12r928pzhk_llnqf00000gn/T/bsp-launcher337636885249760784/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/imamdigmi/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.7s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 1.16s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...

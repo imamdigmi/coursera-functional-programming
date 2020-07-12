@@ -1,0 +1,4 @@
+[debug] [patmat-test] Classpath dependencies List()
+[debug] [patmat-test] Dependencies from configurations List(patmat)
+[debug] Bloop wrote the configuration of project 'patmat-test' to '/Users/imamdigmi/Code/scala/patmat/.bloop/patmat-test.json'
+[success] Generated .bloop/patmat-test.json
